@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header>
-      <h1>My ToDo List</h1>
+      <h1>My To Do List</h1>
       </header>
       <Form />
       <input type="text" value={inputTodo} onChange={(e) => setInputTodo(e.target.value)} />
